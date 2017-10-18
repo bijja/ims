@@ -98,6 +98,6 @@
 	</dependencies>
 	
 	<build>
-		<finalName>ims</finalName>
+		<finalName>ims-${BUILD_NUMBER}</finalName>
 	</build>
 </project>
