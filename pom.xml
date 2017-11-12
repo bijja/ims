@@ -94,9 +94,23 @@
 			<artifactId>servlet-api</artifactId>
 			<version>3.0-alpha-1</version>
 		</dependency>
+		
+		
 
 	</dependencies>
-	
+<distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>InternalReleases</name>
+            <url>http://18.216.38.164:32768/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://18.216.38.164:32768/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement> 
+
 	<build>
 		<finalName>ims-${BUILD_NUMBER}</finalName>
 	</build>
