@@ -102,12 +102,12 @@
         <repository>
             <id>nexus</id>
             <name>InternalReleases</name>
-            <url>http://54.227.212.27:8080/nexus/content/repositories/releases/</url>
+            <url>http://52.87.164.99:8081/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://54.227.212.27:8080/nexus/content/repositories/snapshots/</url>
+            <url>http://52.87.164.99:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement> 
 
